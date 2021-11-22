@@ -4,14 +4,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family:'Poppins', sans-serif;
-}
-
-.separador {
-    border: solid silver;
 }
 
 .containerPrimario {
@@ -39,9 +36,16 @@ body {
     box-shadow: 0px 0px 3px 3px rgb(209, 208, 208);       
 }
 
-.link {
+.links-blog {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
     padding: 20px;
-    box-shadow: 3px 3px 3px 3px rgb(209, 208, 208);
+}
+
+#sombras {
+    box-shadow: 4px 3px 8px 1px rgb(97, 95, 95);
 }
 
 .rodape {
@@ -51,4 +55,5 @@ body {
 
 .atribuicao {
     text-align: center;
+    font-size: 7px;
 }
