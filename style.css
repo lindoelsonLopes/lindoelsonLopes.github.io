@@ -22,13 +22,13 @@ body {
 }
 
 .containerSecundario {
-    text-align: justify;
+    text-align: center;
     padding: 100px;
     height: 300px;
 }
 
 .containerTerciario {
-    text-align: justify;
+    text-align: center;
     padding: 100px;
     height: 300px;
 }
@@ -39,3 +39,16 @@ body {
     box-shadow: 0px 0px 3px 3px rgb(209, 208, 208);       
 }
 
+.link {
+    padding: 20px;
+    box-shadow: 3px 3px 3px 3px rgb(209, 208, 208);
+}
+
+.rodape {
+    padding: 20px;
+    text-align: center;
+}
+
+.atribuicao {
+    text-align: center;
+}
