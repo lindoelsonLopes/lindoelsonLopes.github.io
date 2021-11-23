@@ -9,31 +9,45 @@
 
 body {
     font-family:'Poppins', sans-serif;
+    
 }
 
 .containerPrimario {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;  
+    justify-content:center;
+    align-items:flex-end;
+    padding: 10px; 
+    
 }
 
-.containerSecundario {
-    text-align: center;
-    padding: 100px;
-    height: 300px;
+.image-container {
+    height: 204px;
+           
+}
+
+.descricao {
+    position: absolute;
+    top: 16%;
+    right: 10%;
+    left: 250px;
+}
+
+
+#minha-foto {
+    float: left;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid rgb(149, 238, 250);
+    box-shadow: 0px 0px 3px 3px rgb(209, 208, 208);
+    position: relative;
+    margin: 10px;
 }
 
 .containerTerciario {
     text-align: center;
     padding: 100px;
     height: 300px;
-}
-
-#imagemRedonda {
-    border-radius: 50%;
-    border: 3px solid #75F4F4;
-    box-shadow: 0px 0px 3px 3px rgb(209, 208, 208);       
+    
 }
 
 .links-blog {
