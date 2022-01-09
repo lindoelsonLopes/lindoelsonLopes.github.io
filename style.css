@@ -9,27 +9,129 @@
 
 body {
     font-family:'Poppins', sans-serif;
+    background-color: #202833;
     
 }
-
-.containerPrimario {
+.main-container{
+    width: 100%;
     display: flex;
-    justify-content:center;
-    align-items:flex-end;
-    padding: 10px; 
-    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 
-.image-container {
+.header-container{
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 80px;
+    width: 100%;
+    flex: 1;
+      
+}
+
+.logo{
+    flex: 1;
+    color: #fff;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 30px;
+    max-width: 270px;
+    min-width: 320px;
+}
+
+#menu{
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+#menu ul {
+    height: 36px;
+}
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    margin: 2px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+#menu ul li a:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #66fcf1;
+}
+
+#section-container{
+    padding: 20px 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 100px;
+    min-height: 500px;
+}
+div#apresentation{
+    flex: 1;
+}
+div#apresentation span:first-child {
+    display: block;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 27px;
+    color: #66fcf1;
+    text-transform: uppercase;
+}
+div#apresentation h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+}
+div#apresentation p {
+    text-align: justify;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 26px;
+    max-width: 610px;
+}
+div#apresentation a {
+    display: inline-block;
+    border: 2px solid #66fcf1;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    color: #66fcf1;
+    transition: background 0.2s linear;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+#designer{
+    width: 500px;
+    height: 500px;
+}
+
+
+/* .image-container {
     height: 204px;
            
-}
-
-.descricao {
-    position: absolute;
-    top: 16%;
-    right: 10%;
-    left: 250px;
 }
 
 
@@ -70,4 +172,4 @@ body {
 .atribuicao {
     text-align: center;
     font-size: 7px;
-}
+} */
